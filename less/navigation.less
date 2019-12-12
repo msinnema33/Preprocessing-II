@@ -7,17 +7,22 @@
     margin: 0 auto;
     border-bottom: 2px dashed @navigation-border;
     
+    @media @mobile {
+        flex-direction: column;
+    }    
+
+
     h1 {
         font-size: 4rem;
     }
 
     nav {
-        //width: 70%;
         justify-content: flex-end;
-        //margin-left: 35%;
     }
         a {
             justify-content: space-around;
             font-size: 1.6rem;
         }
+
+    
 }

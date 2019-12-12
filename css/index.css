@@ -175,6 +175,11 @@ img {
   margin: 0 auto;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  .top-nav {
+    flex-direction: column;
+  }
+}
 .top-nav h1 {
   font-size: 4rem;
 }
@@ -204,6 +209,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 }
 .home .content-section .text-content {
   width: 48%;

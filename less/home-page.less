@@ -10,7 +10,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
+    @media @mobile {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      
+  }     
     
     .text-content {
       width: 48%;
