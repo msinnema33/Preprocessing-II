@@ -303,3 +303,6 @@ img {
   text-align: center;
   font-size: 2rem;
 }
+.home .content-pick .btn:hover {
+  background-color: #117a8b;
+}
